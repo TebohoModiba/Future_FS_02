@@ -81,8 +81,8 @@ npm run dev
 **Important**: Make sure your `.env` file contains:
 
 ```env
-MONGO_URI=mongodb+srv://adminuser:BVep8Qj7tivke2G9@cluster21.ee3sour.mongodb.net/minicrm?retryWrites=true&w=majority
-JWT_SECRET=supersecretkeychangethisinproduction2026
+MONGO_URI=mongodb+srv://<db_username>:<db_password>@cluster21.ee3sour.mongodb.net/minicrm?retryWrites=true&w=majority
+JWT_SECRET=your_jwt_secret_key_here
 PORT=5000
 ```
 
